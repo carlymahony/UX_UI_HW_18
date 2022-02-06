@@ -34,6 +34,22 @@ button {
   font-size: 15px;
   border-radius: 4px;
 }
+
+.flexContainer{
+  display: flex;
+  width: 33%;
+  margin: 10px;
+  padding:10px;
+}
+.myArea{
+  grid-area: myArea;
+}
+
+.workGrid{
+  display: grid;
+  grid-template-areas: 'myArea myArea myArea myArea myArea';
+}
+
 footer {
   background-color: #373738;
   padding: 5px;
